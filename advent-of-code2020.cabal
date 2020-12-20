@@ -59,6 +59,8 @@ library
 
   -- Other library packages from which modules are imported.
   build-depends:       base ^>=4.12.0.0
+                    ,  parsec ^>= 3.1.14.0
+                    ,  containers ^>= 0.6.4.2
 
   -- Directories containing source files.
   hs-source-dirs:      src
